@@ -79,7 +79,7 @@ function validateForm() {
     // ... do something with the selected option
   }
 
-  if (dateSelect.value.trim() === "") {
+  if (datSelect.value.trim() === "") {
     return false;
   }
 
