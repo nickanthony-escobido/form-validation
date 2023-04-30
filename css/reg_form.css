@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "RoadRage";
+  src: url(../fonts/Road_Rage.otf);
+}
+@font-face {
+  font-family: "Future Socialism";
+  src: url(../fonts/Future\ Socialism.ttf);
+}
+@font-face {
+  font-family: "The Barethos";
+  src: url(../fonts/The\ Barethos.ttf);
+}
+@font-face {
+  font-family: "Cyberpunk";
+  src: url(../fonts/Cyberpunk-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Reg";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+body {
+  background: #1a2980;
+  background: linear-gradient(to right, #26d0ce, #1a2980);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bugslayer {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "RoadRage";
+  letter-spacing: 5px;
+  font-size: 50px;
+  padding-left: 35px;
+  /* padding-top: 5px; */
+  color: rgb(255, 0, 0);
+  text-shadow: white 1px 2px 0px;
+}
+article {
+  position: relative;
+  width: 495px;
+  height: 650px;
+  background-color: rgb(13, 167, 72);
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: #e7b305; */
+  border-radius: 20px;
+}
+section {
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tips {
+  font-weight: 100;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+hr {
+  height: 1px;
+  border-color: aqua;
+}
+
+::placeholder {
+  padding: 10px 10px 10px;
+}
+
+.name {
+  align-items: center;
+}
+.short {
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  padding-left: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+}
+.short2 {
+  width: 130px;
+  height: 30px;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+}
+.long {
+  width: 430px;
+  height: 35px;
+  border-radius: 8px;
+  padding-left: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+}
+
+.padding {
+  padding-top: 10px;
+}
+.padding2 {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.couple_box {
+  display: inline-block;
+}
+
+label {
+  padding-bottom: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+.description {
+  padding-top: 10px;
+  font-size: 14px;
+  color: aliceblue;
+  font-family: "Roboto Reg";
+}
+.reg-btn {
+  margin: 15px;
+  padding: 20px 140px;
+  background-color: #e7b305;
+  border-radius: 35px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Future Socialism";
+}
+
+.warning {
+  color: white;
+  background-color: red;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  display: inline;
+}
+
+#required {
+  color: red;
+}
