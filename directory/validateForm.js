@@ -79,9 +79,7 @@ function validateForm() {
     // ... do something with the selected option
   }
 
-  if (datSelect.value.trim() === "") {
-    return false;
-  }
+
 
   if (!emailInput.checkValidity()) {
     emailInput.placeholder = "Enter a valid email address";
